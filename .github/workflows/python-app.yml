@@ -1,0 +1,14 @@
+def techno(a, b):
+    assert b != 0 , 'Нельзя делить на 0'
+    return round(a / b)
+c = techno(-100,100)
+print(c)
+
+
+techno_tuple = (-9, -6, -7, -3, -5, -1, -2, -4, -8, 0)
+sorted_tuple = tuple(sorted(techno_tuple))
+print(sorted_tuple)
+
+
+def technotest():
+   assert 0 <= 100
